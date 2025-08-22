@@ -1,0 +1,49 @@
+:root {
+  --background: #1B244A;
+  --text: #EEEEEE;
+  --btn: #9AABD8;
+  --score: #F94F6D;
+  --square: #080001;
+}
+
+body {
+    margin: 0;
+     background-color: var(--background);
+}
+
+.container, .btn-container, .display-score {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: var(--text);
+}
+
+
+h4 {
+    color: var(--score);
+    font-family: "Cursed Timer ULiL";
+    justify-content: center;
+    font-size: 3em;
+    }
+
+button {
+    color: var(--btn);
+    background-color: var(--background);
+    border-color: var(--btn);
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+    font-family: "Cursed Timer ULiL";
+}
+.square {
+    background-color: var(--square);
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
